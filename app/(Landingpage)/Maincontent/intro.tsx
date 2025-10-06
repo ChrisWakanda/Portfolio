@@ -1,6 +1,5 @@
 
 import Link from "next/link"
-import { Button, Card } from "react-bootstrap"
 
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet"></link>
 export default function Intro() {
@@ -22,7 +21,7 @@ export default function Intro() {
 
                 <div style={{ padding: 0 }}>
                     <div style={{ fontFamily: "'Montserrat', sans-serif", margin: "auto" }}>
-                        <div style={{ fontSize: "40px", fontWeight: 300, color: "#86868b" }}>Hey there! 👋 I'm</div>
+                        <div style={{ fontSize: "40px", fontWeight: 300, color: "#86868b" }}>Hey there! 👋 I&apos;m</div>
                         <div style={{
                             fontFamily: "'Montserrat', sans-serif",
                             fontSize: "64px",
