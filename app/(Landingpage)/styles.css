@@ -3,3 +3,63 @@
         padding-left: 140px !important;
     }
 }
+
+@media (max-width: 768px) {
+    .sidebar-desktop {
+        display: none !important;
+    }
+
+    .sidebar-divider {
+        display: none !important;
+    }
+
+    .main-content-wrapper {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .intro-card {
+        padding: 40px 24px !important;
+        min-height: auto !important;
+        max-height: none !important;
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
+    .intro-greeting {
+        font-size: 24px !important;
+    }
+
+    .intro-name {
+        font-size: 36px !important;
+        line-height: 1.2 !important;
+    }
+
+    .intro-tagline {
+        font-size: 18px !important;
+        margin-top: 20px !important;
+    }
+
+    .intro-description {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+    }
+
+    .intro-button-wrapper {
+        margin-top: 30px !important;
+    }
+
+    .mobile-social-footer {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .mobile-social-footer {
+        display: none !important;
+    }
+
+    .sidebar-desktop {
+        display: block !important;
+    }
+}
