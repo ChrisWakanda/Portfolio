@@ -46,7 +46,7 @@ body {
 
   .intro-card {
     padding: 40px 24px !important;
-    min-height: auto !important;
+    min-height: 600px !important;
     max-height: none !important;
     width: 90% !important;
     margin: 20px auto !important;
