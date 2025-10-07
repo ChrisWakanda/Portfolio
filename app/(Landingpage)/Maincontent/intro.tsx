@@ -1,6 +1,8 @@
 import Link from "next/link"
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import Experience from "./experience";
+import Aboutme from "./aboutme";
 
 export default function Intro() {
     return (
@@ -20,7 +22,7 @@ export default function Intro() {
                 padding: "80px 60px",
                 maxWidth: "1300px",
                 minHeight: "400px",
-                maxHeight: "675px",
+                maxHeight: "750px",
                 width: "95%",
                 border: "1px solid rgba(255, 255, 255, 0.1)",
                 boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 80px rgba(255, 255, 255, 0.03) inset"
@@ -110,6 +112,9 @@ export default function Intro() {
                     <img src="/intro_art_png_version.png" width="550px"></img>
                 </div>
             </div>
+            
+            <Aboutme/>
+            <Experience/>
 
             <div className="mobile-social-footer" style={{
                             display: "none",

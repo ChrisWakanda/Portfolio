@@ -20,8 +20,21 @@
         margin: 20px auto !important;
     }
 
+    .aboutme-card {
+        padding: 80px 24px !important;
+        min-height: 500px !important;
+        max-height: none !important;
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
     .intro-greeting {
         font-size: 34px !important;
+    }
+
+    #aboutme-greeting {
+        font-size: 34px !important;
+        margin-top: -40px !important;
     }
 
     .intro-name {
