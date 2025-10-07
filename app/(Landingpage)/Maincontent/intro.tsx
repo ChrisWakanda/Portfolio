@@ -85,8 +85,9 @@ export default function Intro() {
                             marginTop: "45px"
                         }}>
                             check out my resume below! <br />
-                            <span style={{ fontStyle: "italic", fontWeight: "100", fontSize: "16px", fontFamily: "'Montserrat', sans-serif", color: "#a1a1a6" }} id="intern-seek-message-intro">I&apos;m currently seeking Summer 2026 Internships in SWE!</span>
                         </div>
+
+                        <div style={{ fontStyle: "italic", fontWeight: "100", fontSize: "16px", fontFamily: "'Montserrat', sans-serif", color: "#a1a1a6" }} id="intern-seek-message-intro">I&apos;m currently seeking Summer 2026 Internships in SWE!</div>
 
                         <div className="intro-button-wrapper" style={{ marginTop: "15px" }}>
                             <Link href="/Docs/aryan_resume.pdf" target="_blank" rel="noopener noreferrer">

@@ -55,7 +55,12 @@
 
     .intro-description {
         font-size: 16px !important;
-        margin-top: 50px !important;
+        margin-top: 40px !important;
+    }
+
+    #intern-seek-message-intro {
+        margin-top: 15px !important;
+        margin-bottom: 5px !important;
     }
 
     .intro-button-wrapper {
