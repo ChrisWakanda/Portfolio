@@ -33,13 +33,13 @@ export default function Aboutme() {
                         lineHeight: "1.8",
                         marginBottom: "20px"
                     }}>
-                        I'm currently a <span style={{ color: "#ffd700" }}>computer science grad student at Northeastern University</span> in Boston,
+                        I&apos;m currently a <span style={{ color: "#ffd700" }}>computer science grad student at Northeastern University</span> in Boston,
                         originally from the lively city of <span style={{ color: "#cd7f32" }}>Mumbai, India</span>.
                         If I had to sum up why I chose tech in one line, it’d be this:<br/><br/>
 
                         <q style={{fontStyle: "italic", color: "#0071e3"}}>The quickest way to impact 8 billion people is through Software.</q><br/><br/>
                         
-                        And I genuinely believe that. I'm motivated by impact—building systems that scale, models that make sense, 
+                        And I genuinely believe that. I&apos;m motivated by impact—building systems that scale, models that make sense, 
                         and software that people actually want to use. These words have taken me from engineering flight simulation systems at <span style={{color: "#ffd700"}}>Boeing</span> to
                         exploring the frontiers of explainable AI.
                     </p>
@@ -51,7 +51,7 @@ export default function Aboutme() {
                         marginBottom: "20px"
                     }}>
                         I love the challenge of <span style={{ color: "#f5f5f7" }}>making complex systems simple,
-                            fast, and reliable</span>.  When I'm not coding, you'll find me exploring Boston's club scene, diving into research papers,
+                            fast, and reliable</span>.  When I&apos;m not coding, you&apos;ll find me exploring Boston&apos;s club scene, diving into research papers,
                         or tinkering with side projects that push my limits.
                     </p>
                     
