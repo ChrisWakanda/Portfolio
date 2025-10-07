@@ -58,6 +58,10 @@
         max-width: 350px !important;  /* Limit max size */
         height: auto !important;  /* Maintain aspect ratio */
     }
+
+    #desktop-phone-topbar {
+        display: none !important;  /* Hide desktop top bar on mobile */
+    }
 }
 
 @media (max-width: 950px) {

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 export default function Intro() {
@@ -81,10 +81,11 @@ export default function Intro() {
                             color: "#f5f5f7",
                             marginTop: "45px"
                         }}>
-                            wanna more? check out my resume!
+                            check out my resume below! <br/>
+                            <span style={{fontStyle: "italic", fontWeight: "100", fontSize: "16px", fontFamily: "'Montserrat', sans-serif", color: "#a1a1a6"}} id="intern-seek-message-intro">I&apos;m currently seeking Summer 2026 Internships in SWE!</span>
                         </div>
 
-                        <div className="intro-button-wrapper" style={{ marginTop: "25px" }}>
+                        <div className="intro-button-wrapper" style={{ marginTop: "15px" }}>
                             <Link href="/Docs/aryan_resume.pdf" target="_blank" rel="noopener noreferrer">
                                 <button style={{
                                     padding: "12px 24px",
@@ -128,6 +129,9 @@ export default function Intro() {
                             </Link>
                             <Link href="mailto:aryan.raveshia12@gmail.com">
                                 <FaEnvelope size={28} color="#86868b" />
+                            </Link>
+                            <Link href="tel:+18573511142">
+                                <FaPhone size={28} color="#86868b" />
                             </Link>
             </div>
 
