@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Experience from "./experience";
 import Aboutme from "./aboutme";
+import Currentfocus from "./currentfocus";
 
 export default function Intro() {
     return (
@@ -83,8 +84,8 @@ export default function Intro() {
                             color: "#f5f5f7",
                             marginTop: "45px"
                         }}>
-                            check out my resume below! <br/>
-                            <span style={{fontStyle: "italic", fontWeight: "100", fontSize: "16px", fontFamily: "'Montserrat', sans-serif", color: "#a1a1a6"}} id="intern-seek-message-intro">I&apos;m currently seeking Summer 2026 Internships in SWE!</span>
+                            check out my resume below! <br />
+                            <span style={{ fontStyle: "italic", fontWeight: "100", fontSize: "16px", fontFamily: "'Montserrat', sans-serif", color: "#a1a1a6" }} id="intern-seek-message-intro">I&apos;m currently seeking Summer 2026 Internships in SWE!</span>
                         </div>
 
                         <div className="intro-button-wrapper" style={{ marginTop: "15px" }}>
@@ -112,35 +113,59 @@ export default function Intro() {
                     <img src="/intro_art_png_version.png" width="550px"></img>
                 </div>
             </div>
-            
-            <Aboutme/>
-            <Experience/>
+
+            <Aboutme />
+            <Experience />
+            <Currentfocus />
 
             <div className="mobile-social-footer" style={{
-                            display: "none",
-                            justifyContent: "center",
-                            gap: "30px",
-                            marginTop: "30px",
-                            paddingBottom: "30px"
-                        }}>
-                            <Link href="https://www.linkedin.com/in/aryanraveshia/" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin size={28} color="#86868b" />
-                            </Link>
-                            <Link href="https://x.com/aryan_raveshia" target="_blank" rel="noopener noreferrer">
-                                <FaXTwitter size={28} color="#86868b" />
-                            </Link>
-                            <Link href="https://github.com/ChrisWakanda" target="_blank" rel="noopener noreferrer">
-                                <FaGithub size={28} color="#86868b" />
-                            </Link>
-                            <Link href="mailto:aryan.raveshia12@gmail.com">
-                                <FaEnvelope size={28} color="#86868b" />
-                            </Link>
-                            <Link href="tel:+18573511142">
-                                <FaPhone size={28} color="#86868b" />
-                            </Link>
+                display: "none",
+                justifyContent: "center",
+                gap: "30px",
+                marginTop: "30px",
+                paddingBottom: "30px"
+            }}>
+                <Link href="https://www.linkedin.com/in/aryanraveshia/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin size={28} color="#86868b" />
+                </Link>
+                <Link href="https://x.com/aryan_raveshia" target="_blank" rel="noopener noreferrer">
+                    <FaXTwitter size={28} color="#86868b" />
+                </Link>
+                <Link href="https://github.com/ChrisWakanda" target="_blank" rel="noopener noreferrer">
+                    <FaGithub size={28} color="#86868b" />
+                </Link>
+                <Link href="mailto:aryan.raveshia12@gmail.com">
+                    <FaEnvelope size={28} color="#86868b" />
+                </Link>
+                <Link href="tel:+18573511142">
+                    <FaPhone size={28} color="#86868b" />
+                </Link>
+            </div>
+
+            <div style={{
+                textAlign: "center",
+                padding: "30px 20px 10px 20px",
+                fontSize: "19px",
+                fontWeight: 100,
+                color: "#FFFFFF", 
+                //marginBottom: "5px",
+                fontFamily: "'Montserrat', sans-serif"
+            }}>
+                Have a cool project or opportunity? Feel free to connect! <br />
+            </div>
+
+            <div style={{
+                textAlign: "center",
+                padding: "30px 20px 10px 20px",
+                fontSize: "14px",
+                fontWeight: 300,
+                color: "#86868b", 
+                marginBottom: "15px"
+            }}>
+                © {new Date().getFullYear()} Aryan Raveshia. All rights reserved.
             </div>
 
         </div>
-        
+
     )
 }
