@@ -11,20 +11,21 @@ export default function Intro() {
             alignItems: "center",
             minHeight: "100vh",
             width: "100%",
-            padding: "20px 0"
+            padding: "80px 0 20px 0"
         }}>
             <div className="intro-card" style={{
+                display: "flex",
                 background: "linear-gradient(135deg, #0f0f0f 0%, #0a0a0a 100%)",
                 borderRadius: "20px",
                 padding: "80px 60px",
-                maxWidth: "1000px",
-                minHeight: "600px",
-                maxHeight: "700px",
+                maxWidth: "1300px",
+                minHeight: "400px",
+                maxHeight: "675px",
                 width: "95%",
                 border: "1px solid rgba(255, 255, 255, 0.1)",
                 boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 80px rgba(255, 255, 255, 0.03) inset"
             }}>
-                <div style={{ padding: 0 }}>
+                <div style={{ display: "flex", padding: 0 }}>
                     <div style={{ fontFamily: "'Montserrat', sans-serif", margin: "auto" }}>
                         <div className="intro-greeting" style={{
                             fontSize: "40px",
@@ -83,7 +84,7 @@ export default function Intro() {
                             wanna more? check out my resume!
                         </div>
 
-                        <div className="intro-button-wrapper" style={{ marginTop: "50px" }}>
+                        <div className="intro-button-wrapper" style={{ marginTop: "25px" }}>
                             <Link href="/Docs/aryan_resume.pdf" target="_blank" rel="noopener noreferrer">
                                 <button style={{
                                     padding: "12px 24px",
@@ -103,6 +104,9 @@ export default function Intro() {
                             </Link>
                         </div>
                     </div>
+                </div>
+                <div id="intro-art" style={{ display: "flex", alignItems: "center", marginLeft: "auto", marginRight: "auto" }}>
+                    <img src="/intro_art_png_version.png" width="550px"></img>
                 </div>
             </div>
 

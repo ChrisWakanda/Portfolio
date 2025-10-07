@@ -28,11 +28,16 @@
         margin-top: 10px !important;
         font-size: 46px !important;
         line-height: 1.2 !important;
+        margin-bottom: 40px !important;
     }
 
     .intro-tagline {
         font-size: 23px !important;
-        margin-top: 20px !important;
+        margin-top: 5px !important;
+    }
+
+    .topbar-lines {
+        font-size: 12px !important;
     }
 
     .intro-description {
@@ -46,6 +51,18 @@
 
     .mobile-social-footer {
         display: flex !important;
+    }
+
+    #intro-art img {
+        width: 100% !important;  /* Make image responsive */
+        max-width: 350px !important;  /* Limit max size */
+        height: auto !important;  /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 950px) {
+    #intro-art {
+        display: none !important;  /* Hide image on small screens */
     }
 }
 
