@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Aryan Raveshia | Portfolio",
   description: "Software Engineer | Builder | Global Citizen",
+  icons: {
+    icon: "/airlogo1.png",
+  },
 };
 
 export default function RootLayout({
