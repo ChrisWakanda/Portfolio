@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Aryan Raveshia's Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website! This site showcases my work, projects, and professional journey as a software engineer and builder at heart.
 
-First, run the development server:
+Live Site:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://portfolio-snowy-pi-85.vercel.app/Maincontent
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech Stack:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Frontend: Next.js (React framework)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Styling: Inline CSS, custom gradients, and glassmorphism design
 
-## Learn More
+Deployment: Vercel
 
-To learn more about Next.js, take a look at the following resources:
+Fonts: Montserrat (Google Fonts)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Features:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Responsive landing page with gradient and glassmorphic card layout
 
-## Deploy on Vercel
+Animated text highlights for name and roles
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+“View Resume” button linking to PDF
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projects and sections structured for easy readability
+
+Fully deployable to Vercel
+
+License:
+
+This portfolio website is personal and not for commercial use.
+You may reference the code for learning purposes.
+
+Contact:
+
+Email: aryan.raveshia12@gmail.com
