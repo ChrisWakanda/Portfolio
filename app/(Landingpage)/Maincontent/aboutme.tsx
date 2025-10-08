@@ -37,7 +37,7 @@ export default function Aboutme() {
                         originally from the lively city of <span style={{ color: "#cd7f32" }}>Mumbai, India</span>.
                         If I had to sum up why I chose tech in one line, it’d be this:<br/><br/>
 
-                        <q style={{fontStyle: "italic", color: "#0071e3"}}>The quickest way to impact 8 billion people is through Software.</q><br/><br/>
+                        <q style={{fontStyle: "italic", color: "#0071e3"}}>The quickest way to make a difference to 8 billion people is through the power of software.</q><br/><br/>
                         
                         And I genuinely believe that. I&apos;m motivated by <span style={{color: "red"}}>impact</span>—building systems that scale, models that make sense, 
                         and software that people actually want to use. These words have taken me from engineering flight simulation systems at <span style={{color: "#ffd700"}}>Boeing</span> to
