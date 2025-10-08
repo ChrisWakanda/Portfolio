@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link"
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -103,7 +104,17 @@ export default function Intro() {
                                     cursor: "pointer",
                                     fontFamily: "'Montserrat', sans-serif",
                                     transition: "all 0.3s ease"
-                                }}>
+                                }}
+                                    onMouseEnter={(e) => {
+                                        e.currentTarget.style.background = "rgba(255, 255, 255, 0.2)";
+                                        e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.4)";
+                                    }}
+                                    onMouseLeave={(e) => {
+                                        e.currentTarget.style.background = "rgba(255, 255, 255, 0.1)";
+                                        e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.2)";
+                                    }}
+
+                                >
                                     View Resume
                                 </button>
                             </Link>
@@ -148,7 +159,7 @@ export default function Intro() {
                 padding: "30px 20px 10px 20px",
                 fontSize: "19px",
                 fontWeight: 100,
-                color: "#FFFFFF", 
+                color: "#FFFFFF",
                 //marginBottom: "5px",
                 fontFamily: "'Montserrat', sans-serif"
             }}>
@@ -160,7 +171,7 @@ export default function Intro() {
                 padding: "30px 20px 10px 20px",
                 fontSize: "14px",
                 fontWeight: 300,
-                color: "#86868b", 
+                color: "#86868b",
                 marginBottom: "15px"
             }}>
                 © {new Date().getFullYear()} Aryan Raveshia. All rights reserved.
