@@ -85,6 +85,9 @@ export const metadata: Metadata = {
   description: "Software Engineer and Software Developer at Northeastern University specializing in distributed systems, machine learning, simulation, and full-stack development. Software Development Engineer previously at Boeing. Open for Summer 2026 internships.",
   keywords: ['Software Engineer', 'Software Developer', 'Software Development Engineer', 'Machine Learning', 'Simulation', 'Full Stack Developer', 'Northeastern University', 'Boston', 'Aryan Raveshia', 'Web Development', 'AI', 'React', 'Python', 'Distributed Systems', 'Boeing'],
   authors: [{ name: 'Aryan Raveshia' }],
+  verification: { 
+    google: '5TkZ-7hg9UYSGAVnEkV-UIMVIQYzSNdh-iAka-y_gxg',
+  },
   icons: {
     icon: "/airlogo1.png",
   },
