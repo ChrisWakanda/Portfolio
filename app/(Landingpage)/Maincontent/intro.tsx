@@ -91,7 +91,7 @@ export default function Intro() {
                         <div style={{ fontStyle: "italic", fontWeight: "100", fontSize: "16px", fontFamily: "'Montserrat', sans-serif", color: "#a1a1a6" }} id="intern-seek-message-intro">I&apos;m currently seeking Summer 2026 Internships in SWE!</div>
 
                         <div className="intro-button-wrapper" style={{ marginTop: "15px" }}>
-                            <Link href="/Docs/Aryan_Raveshia_Latest_Resume_V5.pdf" target="_blank" rel="noopener noreferrer">
+                            <Link href="/Docs/Aryan_Raveshia_Latest_Resume_V6.pdf" target="_blank" rel="noopener noreferrer">
                                 <button style={{
                                     padding: "12px 24px",
                                     fontSize: "16px",
