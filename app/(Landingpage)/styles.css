@@ -28,6 +28,14 @@
         margin: 20px auto !important;
     }
 
+    .currentfocus-card {
+        padding: 80px 24px !important;
+        min-height: 600px !important;
+        max-height: none !important;
+        width: 90% !important;
+        margin: 20px auto !important;
+    }
+
     .intro-greeting {
         font-size: 34px !important;
     }
