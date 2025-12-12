@@ -31,16 +31,29 @@ export default function Experience() {
             ]
         },
         {
-            company: "MIT Manipal Research",
-            role: "AI Research Assistant",
-            duration: "Jan 2024 - Jul 2024 (6mos)",
-            location: "Manipal, India",
-            color: "#ffd700",
+            company: "Calendar Management System",
+            role: "Java Developer",
+            duration: "Project",
+            location: "Boston, MA",
+            color: "#4A90E2",
             highlights: [
-                "Authored thesis on Explainable AI in Regression Models",
-                "Improved explanation fidelity by 15% on benchmarks",
-                "Built visualization pipelines using SHAP and LIME",
-                "Evaluated model transparency through quantitative metrics"
+                "Architected robust MVC system using Java & Swing for strict modularity",
+                "Engineered flexible controller using Command & Builder design patterns",
+                "Implemented custom AnalyticsHub using Immutable DTOs & defensive copying",
+                "Developed complex algorithms for recurring event scheduling & conflict detection"
+            ]
+        },
+        {
+            company: "Learning Management System",
+            role: "Full Stack Web Developer",
+            duration: "Project",
+            location: "Boston, MA",
+            color: "#2A9D8F",
+            highlights: [
+                "Developed scalable RBAC system with RESTful APIs using Express & MongoDB",
+                "Optimized persistent data storage queries using Mongoose ODM",
+                "Built responsive Next.js & TypeScript frontend with real-time enrollment",
+                "Implemented secure session-based authentication & deployed on Vercel/Render"
             ]
         },
         {
@@ -57,16 +70,16 @@ export default function Experience() {
             ]
         },
         {
-            company: "Restyled",
-            role: "Full-Stack Android App",
-            duration: "Project",
+            company: "Explainable AI Researcher",
+            role: "AI Research Assistant",
+            duration: "Jan 2024 - Jul 2024 (6mos)",
             location: "Manipal, India",
-            color: "#cd7f32",
+            color: "#ffd700",
             highlights: [
-                "Built thrift-shopping app with Java, MySQL, MongoDB",
-                "Integrated product listings, cart, and payments",
-                "Designed modern UI with navigation & search",
-                "Enabled seamless browsing experience"
+                "Authored thesis on Explainable AI in Regression Models",
+                "Improved explanation fidelity by 15% on benchmarks",
+                "Built visualization pipelines using SHAP and LIME",
+                "Evaluated model transparency through quantitative metrics"
             ]
         }
     ];
@@ -90,7 +103,7 @@ export default function Experience() {
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent", fontSize: "34px", fontWeight: "400"
             }}>Experience
-            </div><br/>
+            </div><br />
             <p style={{
                 fontSize: "18px",
                 fontWeight: 300,
@@ -99,7 +112,7 @@ export default function Experience() {
             }}>
                 Scroll through my journey →
             </p>
-            <br/>
+            <br />
             <div ref={scrollContainerRef}
                 style={{
                     display: "flex",
@@ -132,7 +145,7 @@ export default function Experience() {
                             padding: "40px 30px",
                             border: `1px solid ${exp.color}40`,
                             boxShadow: `0 4px 20px ${exp.color}20`,
-                            
+
                         }}>
                         {/* Company/Project Header */}
                         <div style={{
@@ -163,8 +176,8 @@ export default function Experience() {
                         }}>
                             {exp.duration} • {exp.location}
                         </div>
-                        
-                        
+
+
                         {/* Highlights */}
                         <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                             {exp.highlights.map((highlight, i) => ( //Maps through highlights array to create bullet points.
