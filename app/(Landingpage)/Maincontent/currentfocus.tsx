@@ -41,7 +41,6 @@ export default function Currentfocus() {
             padding: "30px 60px",
             maxWidth: "1300px",
             minHeight: "400px",
-            maxHeight: "900px",
             width: "95%",
             border: "1px solid rgba(255, 255, 255, 0.1)",
             boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.37), 0 0 80px rgba(255, 255, 255, 0.03) inset",
