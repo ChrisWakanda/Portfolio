@@ -5,6 +5,7 @@ export default function Currentfocus() {
             course_number: "CS 5010",
             title: "Programming Design Paradigms",
             credits: 4,
+            grade: "A",
             description: "Advanced programming concepts in Java, including object-oriented and functional programming, data structures, algorithms, and software design principles.",
             stack: "Stack: Java, Design Paradigms (Adapter, MVC, Builder etc), JUnit, Swing",
         },
@@ -12,6 +13,7 @@ export default function Currentfocus() {
             course_number: "CS 5610",
             title: "Web Development",
             credits: 4,
+            grade: "A",
             description: "Comprehensive study of web development technologies, including HTML, CSS, JavaScript, front-end frameworks like React, back-end development (Node.js, Express), and database integration (MongoDB, SQL).",
             stack: "Stack: JavaScript, React, Nextjs, Bootstrap CSS, Node.js, Express, MongoDB",
         }
@@ -22,12 +24,14 @@ export default function Currentfocus() {
             course_number: "CS 5800",
             title: "Algorithms",
             credits: 4,
+            grade: "TBA",
             description: "In-depth study of algorithm design and analysis. Covers big-O notation, recurrences, sorting, hashing, and binary search trees. Focuses on Dynamic Programming and comprehensive Graph Algorithms (BFS, DFS, shortest paths, spanning trees). Emphasis is on proving correctness and analyzing complexity.",
         },
         {
             course_number: "CS 5100",
             title: "Foundations of Artificial Intelligence",
             credits: 4,
+            grade: "TBA",
             description: "Introduction to the core theoretical models of Artificial Intelligence. Topics include uninformed, informed, and adversarial search algorithms, Decision Making under Uncertainty using Markov Decision Processes (MDPs), and Graphical Models (Bayes Nets, HMMs), and fundamental Machine Learning concepts, including Supervised and Deep Learning.",
         }
     ]
@@ -60,7 +64,7 @@ export default function Currentfocus() {
                 fontStyle: "italic",
                 marginBottom: "40px"
             }}>
-                Fall 2025 at Northeastern
+                Fall 2025 at Northeastern • Semester 1
             </p>
             <div
                 style={{
@@ -84,7 +88,7 @@ export default function Currentfocus() {
                             letterSpacing: "1px",
                             marginBottom: "8px"
                         }}>
-                            {course.course_number} <span style={{fontSize: "12px"}}>• {course.credits} Credits</span>
+                            {course.course_number} <span style={{fontSize: "12px"}}>• {course.credits} Credits • Grade: {course.grade} </span>
                         </div>
 
                         {/* Course Name */}
@@ -120,7 +124,32 @@ export default function Currentfocus() {
                     </div>
                 ))}
 
-            </div><br/><br/>
+            </div>
+            
+            <div style={{
+                marginTop: "20px",
+                padding: "15px 20px",
+                display: "flex",
+                gap: "30px",
+                borderTop: "1px solid rgba(255, 255, 255, 0.05)",
+                background: "rgba(255, 255, 255, 0.02)",
+                borderRadius: "0 0 16px 16px",
+                borderBlockColor: "rgba(255, 255, 255, 0.1)",
+            }}>
+
+                <div>
+                    <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Term GPA: </span>
+                    <span style={{ color: "#ffd700", fontSize: "15px", fontWeight: "600" }}>4.0 / 4.0</span>
+                </div>
+                <div>
+                    <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Credits: </span>
+                    <span style={{ color: "#f5f5f7", fontSize: "15px", fontWeight: "500" }}>8.0</span>
+                </div>
+
+            </div>
+            
+            <br/><br/>
+
             <p style={{
                 fontSize: "18px",
                 fontWeight: 300,
@@ -128,7 +157,7 @@ export default function Currentfocus() {
                 fontStyle: "italic",
                 marginBottom: "40px"
             }}>
-                Spring 2026 at Northeastern
+                Spring 2026 at Northeastern • Semester 2
             </p>
             <div
                 style={{
@@ -179,6 +208,31 @@ export default function Currentfocus() {
                 ))}
 
             </div>
+
+            <div style={{
+                marginTop: "20px",
+                padding: "15px 20px",
+                display: "flex",
+                gap: "30px",
+                borderTop: "1px solid rgba(255, 255, 255, 0.05)",
+                background: "rgba(255, 255, 255, 0.02)",
+                borderRadius: "0 0 16px 16px",
+                borderBlockColor: "rgba(255, 255, 255, 0.1)"
+            }}>
+
+                <div>
+                    <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Term GPA: </span>
+                    <span style={{ color: "#ffd700", fontSize: "15px", fontWeight: "600" }}>TBD</span>
+                </div>
+                <div>
+                    <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Credits: </span>
+                    <span style={{ color: "#f5f5f7", fontSize: "15px", fontWeight: "500" }}>8.0</span>
+                </div>
+                
+            </div>
+
         </div>
+        
+        
     )
 }
