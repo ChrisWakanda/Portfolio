@@ -139,7 +139,7 @@ export default function Currentfocus() {
 
                 <div>
                     <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Term GPA: </span>
-                    <span style={{ color: "#ffd700", fontSize: "15px", fontWeight: "600" }}>4.0 / 4.0</span>
+                    <span style={{ color: "#ffd700", fontSize: "15px", fontWeight: "600" }}>4.0</span>
                 </div>
                 <div>
                     <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Credits: </span>
