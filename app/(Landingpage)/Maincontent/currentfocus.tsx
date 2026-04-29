@@ -24,15 +24,16 @@ export default function Currentfocus() {
             course_number: "CS 5800",
             title: "Algorithms",
             credits: 4,
-            grade: "TBA",
+            grade: "A-",
             description: "In-depth study of algorithm design and analysis. Covers big-O notation, recurrences, sorting, hashing, and binary search trees. Focuses on Dynamic Programming and comprehensive Graph Algorithms (BFS, DFS, shortest paths, spanning trees). Emphasis is on proving correctness and analyzing complexity.",
         },
         {
             course_number: "CS 5100",
             title: "Foundations of Artificial Intelligence",
             credits: 4,
-            grade: "TBA",
+            grade: "A",
             description: "Introduction to the core theoretical models of Artificial Intelligence. Topics include uninformed, informed, and adversarial search algorithms, Decision Making under Uncertainty using Markov Decision Processes (MDPs), and Graphical Models (Bayes Nets, HMMs), and fundamental Machine Learning concepts, including Supervised and Deep Learning.",
+            stack: "Stack: Python, PyTorch, Pandas, Numpy",
         }
     ]
 
@@ -181,7 +182,8 @@ export default function Currentfocus() {
                             letterSpacing: "1px",
                             marginBottom: "8px"
                         }}>
-                            {course.course_number} <span style={{fontSize: "12px"}}>• {course.credits} Credits</span>
+                            {course.course_number} <span style={{fontSize: "12px"}}>• {course.credits} Credits • Grade: {course.grade} </span>
+                            {/* {course.course_number} <span style={{fontSize: "12px"}}>• {course.credits} Credits</span> */}
                         </div>
 
                         {/* Course Name */}
@@ -222,7 +224,7 @@ export default function Currentfocus() {
 
                 <div>
                     <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Term GPA: </span>
-                    <span style={{ color: "#ffd700", fontSize: "15px", fontWeight: "600" }}>TBD</span>
+                    <span style={{ color: "#ffd700", fontSize: "15px", fontWeight: "600" }}>3.83</span>
                 </div>
                 <div>
                     <span style={{ color: "#86868b", fontSize: "13px", textTransform: "uppercase", letterSpacing: "1px" }}>Credits: </span>
